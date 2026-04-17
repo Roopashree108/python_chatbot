@@ -1,0 +1,14 @@
+user: hi
+bot: Hello! How can I help you today?
+
+user: how are you
+bot: I'm functioning great! Thanks for asking.
+
+user: who are you
+bot: I am EasyChat, your personal chatbot assistant.
+
+user: what can you do
+bot: I can chat with you and answer simple questions based on my training data.
+
+user: bye
+bot: Bye! Have a great day.

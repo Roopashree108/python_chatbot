@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EasyChat Login</title>
+    <style>
+        body {
+            background: #eef2f3;
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial;
+        }
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 0 10px #ccc;
+        }
+        input, button, select {
+            padding: 10px;
+            width: 100%;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <form class="box" action="/chat" method="POST">
+        <h2>Welcome to EasyChat</h2>
+        
+        <input type="text" name="username" placeholder="Your Name" required>
+
+        <select name="room">
+            <option value="General">General</option>
+            <option value="Sports">Sports</option>
+            <option value="Movies">Movies</option>
+            <option value="Study">Study</option>
+        </select>
+
+        <button type="submit">Enter Chat</button>
+    </form>
+</body>
+</html>
